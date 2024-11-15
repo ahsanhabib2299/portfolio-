@@ -1,0 +1,148 @@
+/* styles.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, #f3e5ab, #f5c6ec);
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: #fff;
+  padding: 1.5rem 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+section {
+  padding: 2.5rem;
+  margin: 1rem 0;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #6a11cb;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#about p {
+  text-align: justify;
+  line-height: 1.8;
+}
+
+#projects .project {
+  background: linear-gradient(45deg, #a1c4fd, #c2e9fb);
+  margin: 1rem 0;
+  padding: 1.5rem;
+  border-radius: 10px;
+  color: #333;
+  transition: transform 0.3s ease-in-out;
+}
+
+#projects .project:hover {
+  transform: scale(1.05);
+}
+
+#projects .project h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #2575fc;
+}
+
+#projects .project a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #6a11cb;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+#projects .project a:hover {
+  background: #ffd700;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #2575fc;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form input:focus, form textarea:focus {
+  outline: none;
+  border-color: #6a11cb;
+  box-shadow: 0 0 8px rgba(106, 17, 203, 0.4);
+}
+
+form button {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+form button:hover {
+  background: #ffd700;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: linear-gradient(90deg, #2575fc, #6a11cb);
+  color: #fff;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
